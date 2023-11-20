@@ -14,7 +14,7 @@ const renderCalendar = () => {
     let firstDayofMonth = new Date(currYear, currMonth, 1).getDay() - 1;
     if (firstDayofMonth === -1) {
     firstDayofMonth = 6;
-}
+    }
 
     lastDateofMonth = new Date(currYear, currMonth + 1, 0).getDate(),
     lastDayofMonth = new Date(currYear, currMonth, lastDateofMonth).getDay(),
